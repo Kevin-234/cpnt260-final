@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+main {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../Img/car.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  align-self: center; 
+}
+
+.field-set {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  /* add background color */
+  background-color: hsl(136deg, 0%, 0%, 90%);
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  margin-bottom: 1rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+/* change color of label */
+label {
+  color: #FAEBD7;
+  font-size: 1.3rem;
+}
+
+/* take margin bottom out for looks */
+#psw {
+  margin-bottom: 0;
+}
+
+fieldset {
+  /* remove fieldset border */
+  border: 1px solid  #FAEBD7;
+  border-radius: 25px;
+}
+
+/* change legend font-size */
+legend {
+  font-size: 2.4rem;
+  font-family: 'Piazzolla', serif;
+  color:  #FAEBD7;
+}
+
+/* around remember me margin 0 */
+p {
+  margin: 0;
+  margin-bottom: 0.8rem;
+}
+
+/* optimize button */
+button {
+  margin: auto;
+  width: 20%;
+  height: 2.5em;
+}
+ 
+/* make loginbtn prettier*/
+.loginbtn {
+  margin-bottom: 1.5em;
+  padding: 8px 0 25px 0;
+  text-align: center;
+  font-weight: bold;
+
+  /* design login button */
+  color: #fff;
+  background-color: #000;
+  border: 1px solid  #FAEBD7;
+  cursor: pointer;
+}
+
+.loginbtn:active {
+  color: #000;
+  background-color: #fff;
+}
+/* Adust shape and spot */
+.cancelbtn {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 8px 0 25px 0;
+  text-align: center;
+
+  /* design login button */
+  background-color: #fff;
+  border: 2px solid #FEE59C;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* change text color */
+.cancelbtn a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* make readable: Forget password area */
+.psw {
+  color: white;
+  margin-left: 20px;
+}
+
+span a {
+  color: #CC9903;
+  text-decoration: none;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+span a:active {
+  color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+.guide-link li {
+  padding: 0.5rem;
+  text-decoration: underline white;
+}

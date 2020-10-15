@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+
+/* team cards */
+main {
+  padding: 0;
+}
+
+/* anchor tag take under-line */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/* section */
+section {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+/* heading looks */
+.heading {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  margin-right: -3px;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: #333;
+
+  position: relative;
+  padding-bottom: 0.8em;
+  border-bottom: 2px solid #D49515;
+}
+
+
+/* card wrapper */
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+/* Make card */
+.card {
+  width: 28rem;
+  background-color: #ebeef8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  box-shadow: .3rem .5rem .3rem rgba(0,0,0,0.2);
+}
+
+/* fit background image in card container and make it fancy */
+.card .card-img {
+  width: 100%;
+  height: 15rem;
+  object-fit: cover;
+
+  /* clipy-CSS */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 76%, 0% 100%);
+}
+
+/* profile image make it circle and position*/
+.profile-img {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+/* circle */
+  border-radius: 50%;
+  border: .9rem solid #ebeef8;
+  /* position */
+  margin-top: -9rem;
+  z-index: 99;
+}
+
+.card h1 {
+  font-size: 2rem;
+  color: #333;
+  margin: 1.5rem 0;
+}
+
+.job-title {
+  color: #777;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.about {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  color: #333;
+  margin: .9rem;
+}
+
+/* card buttons */
+.card .btn {
+  padding: .5rem 2rem;
+  background-color: #445ae3;
+  border-radius: 2rem;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  color: #eee;
+  font-size: 1.3rem;
+
+/* added transition here for smoothness when release cursor */
+  transition: all .5s;
+}
+
+.card .btn:hover{
+  transform: translateY(-2px);
+  box-shadow: .5rem .5rem 2rem rgba(0,0,0,0.2);
+}
+
+.card .btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* icons */
+.social-media {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.fa-twitter {
+  color: #55acee;
+  font-size: 2rem;
+}
+
+.fa-github {
+  color: #030303;
+  font-size: 2rem;
+}
+
+.fa-facebook {
+  color: #3b5999;
+  font-size: 2rem;
+}
+
+.fa-instagram {
+  color: #dd4b39;
+  font-size: 2rem;
+}
+
+.fab:hover {
+  color: gold;
+}
+
+/* Contact form */
+form {
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(136deg, 0%, 0%, 80%);
+}
+
+/* set field set */
+fieldset {
+   height: 38vh;
+   width: 40vw;
+   display: flex;
+   flex-direction: column;
+   
+
+   border: 3px solid  #FAEBD7;
+   border-radius: 20px;
+   background-color: hsl(136deg, 10%, 0%, 90%);
+   box-shadow: .3rem .3rem .3rem rgba(0,0,0,0.2);
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.8rem;
+}
+
+label {
+  margin: 1rem;
+  color:  #FAEBD7;
+  font-family: 'Piazzolla', serif;
+  font-weight: 800;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  margin-top: 15px;
+  margin-bottom: 1rem;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+h4 {
+  margin: 10px;
+  color:  #FAEBD7;
+  font-family: 'Piazzolla', serif;
+  font-size: 1.5rem;
+}
+
+textarea {
+  padding: 1.5em;
+}
+
+button {
+  align-self: center;
+  margin: auto;
+  margin-top: 1em;
+  padding: 0.7rem 2em;
+  border: 1px solid  #FAEBD7;
+  border-radius: 20px;
+
+  background-color: black;
+  color: #fff; 
+  font-weight: 800;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+button:active {
+  background-color: #000;
+  color: #FAEBD7;
+}
+
+/* responsive */
+@media screen and (min-width: 700px) {
+  .card-wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 2rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+}

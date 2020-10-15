@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+/* logo */
+.header img {
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1em;
+  margin-left: 8em;
+
+  border: 1px solid white;
+  border-radius: 50%;
+
+  background-color:  #FAEBD7;
+}
+
+/* navigation bar */
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+
+  background-color: black;
+  border-bottom: 1px solid  #FAEBD7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 8em;
+}
+
+.navbar ul {
+  display: flex;
+  
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  margin: 10px;
+  text-decoration: none;
+  /* TODO make prettier */
+  color: white;
+}
+
+.login a{
+  margin-left: 15px;
+  border: 1px solid #FAEBD7;
+  border-radius: 13px;
+  padding: 10px;
+}
+
+.register a{
+  border: 1px solid  #FAEBD7;
+  border-radius: 13px;
+  padding: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+  color: #FAEBD7;
+}
+
+
+/* footer */
+
+.footer {
+  font-size: 1.3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:150px;
+  
+  background-color: #030303;
+  color: white;
+}
+
+/* Gallery */
+main {
+  margin: 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1));
+  color: white;
+  padding: 60px 0;
+}
+
+.gallery-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* grid-template-rows: repeat(4, 18vw); */
+  justify-items: center;
+  grid-gap: 7rem;
+  margin: auto;
+  
+  max-width:840px;
+}
+
+.card {
+  height: auto;
+  border: 2px solid  #FAEBD7;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+} 
+
+/* figure */
+.img-container {
+  margin: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  font-size: 1.5rem;
+  margin-top: 3px;
+  text-align: center;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6 {
+  width: 15rem;
+  height: 25vh;
+}
+
+ p {
+  margin: 0;
+  margin-top: 10px;
+  width: 14rem;
+  font-size: 1.2rem;
+  text-align: center;
+  
+}
+
+/* @media screen and (max-width: 700px){
+  main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+  
+} */
+
