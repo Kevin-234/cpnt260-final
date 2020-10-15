@@ -6,7 +6,7 @@ main {
   justify-content: center;
   align-items: center;
 
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../Img/tabacco\ farm.webp);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../Img/tabacco\ farm.WEBP);
   background-repeat: no-repeat;
   background-size: cover;
 }

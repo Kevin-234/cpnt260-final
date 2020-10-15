@@ -6,7 +6,7 @@ main {
   justify-content: center;
   align-items: center;
 
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../Img/car.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../Img/car.JPG);
   background-repeat: no-repeat;
   background-size: cover;
 }
