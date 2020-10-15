@@ -11,4 +11,6 @@ h1 {
 .paragraph {
   line-height: 1.9rem;
   font-size: 17px;
+  background-color: lightgrey;
+  padding: 1em;
 }
