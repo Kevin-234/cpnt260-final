@@ -117,7 +117,7 @@ p {
 
 /* footer */
 
-.footer {
+footer {
   font-size: 1.3rem;
 
   display: flex;
@@ -127,4 +127,5 @@ p {
   
   background-color: #030303;
   color: white;
+  border-top: 2px solid #FAEBD7;
 }

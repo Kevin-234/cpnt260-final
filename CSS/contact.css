@@ -22,7 +22,7 @@ a {
 }
 /* section */
 section {
-  padding: 4rem 0;
+  padding: 3rem 0;
   background-color: #fff;
 }
 
@@ -45,32 +45,28 @@ section {
 /* card wrapper */
 .card-wrapper {
   display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-}
-
-/* Make card */
-.card {
-  width: 28rem;
-  background-color: #ebeef8;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+  flex-direction: column;
+  
+}
+
+/* Make a card container */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 28rem;
+  background-color: #ebeef8;
   box-shadow: .3rem .5rem .3rem rgba(0,0,0,0.2);
 }
 
 /* fit background image in card container and make it fancy */
 .card .card-img {
   width: 100%;
-  height: 15rem;
+  height: 14rem;
   object-fit: cover;
-
-  /* clipy-CSS */
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 76%, 0% 100%);
 }
 
 /* profile image make it circle and position*/
@@ -82,7 +78,7 @@ section {
   border-radius: 50%;
   border: .9rem solid #ebeef8;
   /* position */
-  margin-top: -9rem;
+  margin-top: -7rem;
   z-index: 99;
 }
 
@@ -100,7 +96,6 @@ section {
 
 .about {
   font-size: 1.5rem;
-  font-style: italic;
   text-align: center;
   color: #333;
   margin: .9rem;

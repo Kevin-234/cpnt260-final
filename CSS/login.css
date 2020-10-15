@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 
 main {
-  height: 100vh;
+  height: 92vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 92vh;
   
   position: absolute;
   z-index: -1;

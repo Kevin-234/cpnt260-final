@@ -12,7 +12,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 92vh;
   
   position: absolute;
   z-index: -1;
@@ -104,9 +104,8 @@ button {
   color: #000;
 }
 
-/* footer */ 
 /*  TODO: FIX THE Go back to home position */
-footer {
+.Goback {
   height: 3rem;
   display: flex;
   justify-content: flex-start;
@@ -121,6 +120,7 @@ footer {
   padding: 0.5rem;
   text-decoration: underline white;
 }
+
 
 @media screen and (max-width: 500px) {
   .btn {
