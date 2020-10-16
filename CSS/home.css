@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Piazzolla:wght@300&display=swap');
+
 body {
   background-color: #e9e9e9;
   margin: 0;
@@ -5,7 +7,15 @@ body {
 
 h1 {
   font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
   margin: auto;
+  color: #fff;
+  background-color: #000;
+  width: 16rem;
+
+  /* decorate text */
+  text-shadow: 2px 1px 1px #D49515;
+  text-align: center;
 }
 
 .paragraph {
@@ -13,4 +23,5 @@ h1 {
   font-size: 17px;
   background-color: lightgrey;
   padding: 1em;
+  font-family: 'Piazzolla', serif;
 }

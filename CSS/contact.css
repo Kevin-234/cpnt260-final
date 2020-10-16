@@ -28,7 +28,7 @@ section {
 
 /* heading looks */
 .heading {
-  text-transform: uppercase;
+/* position */
   font-size: 3.5rem;
   letter-spacing: 3px;
   margin-right: -3px;
@@ -36,11 +36,13 @@ section {
   text-align: center;
   color: #333;
 
+  
   position: relative;
   padding-bottom: 0.8em;
   border-bottom: 2px solid #D49515;
+/* uppercase heading */
+  text-transform: uppercase;
 }
-
 
 /* card wrapper */
 .card-wrapper {
@@ -48,7 +50,6 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 /* Make a card container */
@@ -58,7 +59,7 @@ section {
   align-items: center;
 
   width: 28rem;
-  background-color: #ebeef8;
+  background-color: #cecfd1;
   box-shadow: .3rem .5rem .3rem rgba(0,0,0,0.2);
 }
 
@@ -82,6 +83,7 @@ section {
   z-index: 99;
 }
 
+/* card half bottom */
 .card h1 {
   font-size: 2rem;
   color: #333;
@@ -92,10 +94,12 @@ section {
   color: #777;
   font-size: 1.5rem;
   font-weight: 300;
+  font-family: 'Piazzolla', serif;
 }
 
 .about {
   font-size: 1.5rem;
+  font-family: 'Piazzolla', serif;
   text-align: center;
   color: #333;
   margin: .9rem;
@@ -156,8 +160,9 @@ section {
   font-size: 2rem;
 }
 
+/* give hover to all icons */
 .fab:hover {
-  color: gold;
+  color: #D49515;
 }
 
 /* Contact form */
@@ -170,18 +175,18 @@ form {
   background-color: hsl(136deg, 0%, 0%, 80%);
 }
 
-/* set field set */
+/* set field-set make it pretty*/
 fieldset {
-   height: 38vh;
-   width: 40vw;
-   display: flex;
-   flex-direction: column;
-   
+  height: 38vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  
 
-   border: 3px solid  #FAEBD7;
-   border-radius: 20px;
-   background-color: hsl(136deg, 10%, 0%, 90%);
-   box-shadow: .3rem .3rem .3rem rgba(0,0,0,0.2);
+  border: 3px solid  #FAEBD7;
+  border-radius: 20px;
+  background-color: hsl(136deg, 10%, 0%, 90%);
+  box-shadow: .3rem .3rem .3rem rgba(0,0,0,0.2);
 }
 
 p {
