@@ -18,3 +18,4 @@
 
 ----
 ## GH [Link](https://kevin-234.github.io/cpnt260-final/)
+## GH [Repo](https://github.com/Kevin-234/cpnt260-final)
